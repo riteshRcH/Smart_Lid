@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- left most at top -->
+    <item
+        android:id="@+id/menuItemRetryBTConnection"
+        android:title=""
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menuItemOpenBTSettings"
+        android:title=""
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="2"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menuItemResetAppSettings"
+        android:title="Reset App Settings"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuItemSetDeviceNameNPin"
+        android:title="Change Device Name &amp; Pin"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="4"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuItemChangeDevicePin"
+        android:title="Change Device Pin"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menuItemGiveAndroidAlias"
+        android:title="Give an alias to the device"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="6"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/activity_main_dialog_set_name_pin">
+    <EditText
+        android:id="@+id/editTextSetDeviceName"
+        android:digits="ABCDEFGHIJKLMOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz0123456789"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLength="16"
+        android:hint="New Device Name" />
+    <EditText
+        android:id="@+id/editTextSetDevicePin"
+        android:digits="0123456789"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:maxLength="4"
+        android:hint="New Device Pin (4 digits)"/>
+</LinearLayout>
